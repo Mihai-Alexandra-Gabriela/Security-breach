@@ -1,12 +1,20 @@
 @ECHO OFF
 
 :: -- Set senvitive values and file attachment path -> Powershell [Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes("..."))
-SET "GmailAccount=" :: -- Gmail account
-SET "GmailPassword=" :: -- Password
-SET "Attachment=" :: -- Path of the attachment
+
+:: -- Gmail account
+SET "GmailAccount=" 
+
+:: -- Password
+SET "GmailPassword="
+
+:: -- Path of the attachment
+SET "Attachment=" 
 
 :: -- Set other email values
-SET "EmailTo=" :: -- Gmail account
+:: -- Gmail account
+SET "EmailTo=" 
+
 SET "EmailSubject=RAPORT"
 SET "EmailBody=SAMPLE FILE WITH ATTACHMENT"
 
