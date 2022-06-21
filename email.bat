@@ -1,14 +1,14 @@
 @ECHO OFF
 
-:: -- Set senvitive values and file attachment path -> Powershell [Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes("..."))
+:: -- Set senvitive values and file attachment path 
 
-:: -- Gmail account
+:: -- Gmail account -> Powershell [Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes("..."))
 SET "GmailAccount=" 
 
-:: -- Password
+:: -- Password -> Powershell [Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes("..."))
 SET "GmailPassword="
 
-:: -- Path of the attachment
+:: -- Path of the attachment -> Powershell [Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes("..."))
 SET "Attachment=" 
 
 :: -- Set other email values
