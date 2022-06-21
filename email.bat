@@ -1,12 +1,12 @@
 @ECHO OFF
 
 :: -- Set senvitive values and file attachment path
-SET "GmailAccount=ZABhAGUAbQBvAG4AYgAxADkAOQAwAEAAZwBtAGEAaQBsAC4AYwBvAG0A"
-SET "GmailPassword=RABhAGUAQgAzADIAMQBAAA=="
-SET "Attachment=QwA6AFwAVQBzAGUAcgBzAFwAYQBtAGkAaABhAGkAXABEAGUAcwBrAHQAbwBwAFwAUwBvAG4AaQBjAFcAYQBsAGwAXAB0AGUAcwB0AF8AZABpAHoAZQByAHQAYQB0AGkAZQAuAHQAeAB0AA=="
+SET "GmailAccount="
+SET "GmailPassword="
+SET "Attachment="
 
 :: -- Set other email values
-SET "EmailTo=daemonb1990@gmail.com"
+SET "EmailTo="
 SET "EmailSubject=RAPORT"
 SET "EmailBody=SAMPLE FILE WITH ATTACHMENT"
 
